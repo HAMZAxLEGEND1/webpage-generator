@@ -1,0 +1,8 @@
+app = "my-webpage-generator"
+primary_region = "ams"  # Europe, choose your nearest region
+
+[build]
+  image = "Dockerfile"
+
+[env]
+  NODE_ENV = "production"
